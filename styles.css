@@ -560,7 +560,14 @@ p {
 }
 .contact h2 {
   max-width: 30em;
-  margin: 0 auto 2rem;
+  margin: 0 auto 1.25rem;
+}
+.contact p {
+  max-width: 30em;
+  margin: 0 auto 1em;
+}
+.contact a {
+  margin-top: 1rem;
 }
 
 /* フッター */
