@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>思考のポータビリティ | 小西由貴子</title>
+  <meta name="description" content="AIとの対話で生まれた発見を、その場限りで終わらせない。Chat Archive Studioで対話ログを再利用できる形に変え、思考を時間やAIの違いを越えて持ち運べるようにした実践の記録。" />
+
+  <meta property="og:title" content="思考のポータビリティ | 小西由貴子" />
+  <meta property="og:description" content="AIとの対話で生まれた発見を、その場限りで終わらせない。思考を時間やAIの違いを越えて持ち運べるようにした実践の記録。" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">小西由貴子</a>
+      <nav>
+        <a href="index.html#vision">目指していること</a>
+        <a href="index.html#projects">プロジェクト</a>
+        <a href="index.html#tools">ツール</a>
+        <a href="index.html#contact">お問い合わせ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="project-detail">
+      <div class="container">
+        <a href="index.html#projects" class="back-link">← プロジェクト一覧に戻る</a>
+
+        <div class="project-detail-header">
+          <span class="project-tag">AI × 思考</span>
+          <h1>思考のポータビリティ</h1>
+          <p class="lead">対話の中で生まれた発見を、その場限りで終わらせない。時間やAIの違いを越えて、思考を持ち運べる仕組みをつくりました。</p>
+        </div>
+
+        <div class="project-detail-body">
+
+          <section>
+            <p class="section-eyebrow">BEFORE｜考えが、頭の中を回り続ける</p>
+            <p>頭の中に、何か引っかかっていることがある。けれど、まだうまく言葉にならない。同じことを何度も考えているうちに、どこから手をつければよいのかも分からなくなっていく。</p>
+            <p>そんなときは「紙に書き出してみればいい」と言われます。けれど、形になっていない考えに自分で言葉を与え、一つずつ書き出していくことは、思っている以上に労力のいる作業でした。</p>
+            <p>考えたいことはあるのに、考えるための材料を外に出せない。それが、最初の混沌でした。</p>
+          </section>
+
+          <section>
+            <p class="section-eyebrow">DISCOVER｜対話することで、見えていなかったものが見えてくる</p>
+            <p>AIを相手に壁打ちをすると、まとまっていない話でも、まずは受け止めてもらえます。話した内容を整理してもらい、問いを返してもらうことで、自分の考えを少し離れたところから見直せる。一人で考えているだけでは出てこなかったアイデアが生まれ、最初には想像していなかった方向へ思考が発展していきます。</p>
+            <p>音声入力を使うようになってからは、言葉になる前のモヤモヤも、以前より速く外へ出せるようになりました。頭の中にしかなかったものをまず目に見える形にし、それをAIと一緒に眺め、考え、もう一度言葉にする。この繰り返しの中で、自分が本当に考えていたことや、そこに隠れていたパターンが見えるようになってきました。</p>
+            <p>AIとの対話は、私にとって非常に有効なジャーナリングでもありました。ただ、対話が豊かになるほど、別の問題も生まれました。一度の対話の中でいくつもの発見が生まれ、話題が枝分かれしていく。大切なことを思いついたはずなのに、あとから「あれはどこで話しただろう」と分からなくなる。</p>
+            <p>頭の中にあったものを、目に見える形にはできるようになった。それでも、見つけたものを具体的に使える形にして、あとから活用するところまでは、なかなかできませんでした。頭の中の混沌を外へ出した先に、今度は「会話ログの混沌」が生まれていたのです。</p>
+          </section>
+
+          <section>
+            <p class="section-eyebrow">STRUCTURE｜対話ログを、再利用できる形で残す</p>
+            <p>必要だったのは、対話の中で見つけたキーワードや結論だけを記録することではありませんでした。要約を読めば、何を考えていたのかは分かります。けれど、その考えにどのようにたどり着いたのか、何に心が動き、どこから次の発想が生まれたのか。その思考の流れや熱量までは、要約だけでは十分に残せません。</p>
+            <p>だから私は、要約だけでなく、元の対話ログそのものを、あとから見返せる形で残したいと考えました。</p>
+            <p>ログの保存先に選んだのは、メモツールのObsidianです。必要な情報をいつでも探して取り出せるように、AIとの対話もほかの知識や記録と一緒に蓄積していくことにしました。</p>
+            <p>しかし、長い対話を漏れなくコピーすることは、意外に簡単ではありません。すべて選択してコピーしたつもりでも、一部が抜けてしまうことがありました。そこで作ったのが、Chat Archive Studioです。</p>
+            <p>Chat Archive Studioでは、話者ごとのコピー機能を使い、私とAIの発言を順番に取り込みます。集めた対話にはYAMLフロントマターを付け、Markdown形式のログとして保存します。保存するときには、いつの、何についての対話なのかが分かるように命名規則を設けています。これによって、自分があとから探しやすいだけでなく、AIにも必要なログを検索・参照させやすい環境ができました。</p>
+
+            <div class="flow-grid" aria-label="対話ログの活用フロー">
+              <div class="flow-step">
+                <h4>保存する</h4>
+                <p>対話をMarkdownで残す</p>
+              </div>
+              <span class="flow-arrow" aria-hidden="true">→</span>
+              <div class="flow-step">
+                <h4>見つける</h4>
+                <p>命名規則や情報から検索</p>
+              </div>
+              <span class="flow-arrow" aria-hidden="true">→</span>
+              <div class="flow-step">
+                <h4>読み返す</h4>
+                <p>思考の流れや熱量をたどる</p>
+              </div>
+              <span class="flow-arrow" aria-hidden="true">→</span>
+              <div class="flow-step">
+                <h4>AIへ共有する</h4>
+                <p>文脈ごと別のAIにも渡す</p>
+              </div>
+              <span class="flow-arrow" aria-hidden="true">→</span>
+              <div class="flow-step">
+                <h4>次へ展開する</h4>
+                <p>続きの対話・要約・記事・制作へ</p>
+              </div>
+            </div>
+
+            <p>保存したログは、そのまま読み返すこともできます。読み返す理由は、自分のためだけではありません。必要なときに、AIにももう一度読んでもらうためです。</p>
+            <p>「あのとき話していたことの続きを考えたい」と思っても、AIがどの対話を指しているのか分からなければ、以前の経緯を最初から説明し直さなければなりません。対話ログをAIが読める形で取り出しておけば、必要な会話をもう一度共有し、そのときの思考を引き継いだところから対話を再開できます。</p>
+            <p>しかも、これはAIが変わっても同じです。要約だけを渡して続きを依頼しても、結論は伝わっても、そこに至った経緯や判断の基準までは十分に伝わらないことがあります。けれど、元の対話ログも渡せば、新しいAIも思考の道筋をたどり、「なぜこの形になったのか」を理解できます。特定のAIの中に閉じ込めるのではなく、人とAIの間で育てた思考を、必要な場所へ持ち運べるようにする。対話ログを再利用できる形で残したい理由の一つは、そこにあります。</p>
+            <p>現在は、元の対話ログから要約や思考ログを作ったり、記事やSNS投稿へ展開したりする仕組みも考案しています。対話をただ保管するのではなく、必要なときに取り出し、次の思考や制作へつなげられる状態にする。Chat Archive Studioは、AIとの対話で生まれた発見を、活用できるところまで運ぶための仕組みです。</p>
+          </section>
+
+          <section>
+            <p class="section-eyebrow">CHANGE｜続きから考えられるようになった</p>
+            <p>過去のポートフォリオ制作ログをObsidianから取り出し、別のAIに読ませることで、言葉を決めた経緯まで引き継いだ状態から作業を再開できました。最初から説明し直すのではなく、続きから考えられる。この「プロジェクト」ページ自体が、その実例です。</p>
+          </section>
+
+          <section>
+            <p class="section-eyebrow">NEXT｜思考を、AIの中に閉じ込めない</p>
+            <p>Chat Archive Studioを実際に使う中で、もう一つ見えてきたことがあります。AIとの対話をエクスポートすることは、単なるデータの保存やバックアップではありません。</p>
+            <p>そこには、人とAIが一緒にたどった思考の流れがあります。何を問い、どこに違和感を持ち、何を大切にして、どのような結論にたどり着いたのか。その文脈まで含めて持ち運ぶことができれば、過去の自分の思考を、別の時間、別の場所、そして別のAIへ引き継ぐことができます。</p>
+            <p>私はこれを、<strong>「思考のポータビリティ」</strong>と考えています。そして、持ち運んだ先で、それまでの経緯や判断基準を理解してもらい、最初から説明し直すことなく続きを考えられること。それが、<strong>「コンテキストの継承」</strong>です。</p>
+            <p>AIとの対話を、特定のサービスや一つのチャットの中に閉じ込めない。人とAIの間で育った思考を、必要な場所へ持ち運び、続きから考えられるようにする。Chat Archive Studioは、その可能性を自分のために形にした、小さな実践でもあります。</p>
+          </section>
+
+        </div>
+
+        <a href="index.html#projects" class="back-link">← プロジェクト一覧に戻る</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 小西由貴子</p>
+    </div>
+  </footer>
+</body>
+</html>
